@@ -1,4 +1,4 @@
-xpackage com.example.board;
+package com.example.board;
 
 import java.util.Date;
 
@@ -140,3 +140,4 @@ public class PostBean {
     }
 
 
+}
