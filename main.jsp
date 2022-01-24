@@ -5,9 +5,9 @@
 <%@ page import="java.time.LocalDate"%>
 <%@ page import="java.time.format.DateTimeFormatter"%>
 <%@ page import="java.time.ZoneId"%>
-<%--@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"--%>
-<%--@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" --%>
-<%--@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <fmt:setLocale value="ja_JP" />
 <main>
 	<form method="POST" action="${path}">
